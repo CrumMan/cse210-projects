@@ -11,29 +11,32 @@ class Program
         string last_name = Console.ReadLine();
         Console.WriteLine($"Your name is {last_name}, {first_name}, {last_name}");
         // second Program
-        Console.Write("What was your grade in percentage points?");
+        Console.Write("What was your grade in percentage points? ");
         string numberFromUser = Console.ReadLine();
-        int number = int.Parse(numberFromUser);
+        float number = float.Parse(numberFromUser);
 
         if (number >= 90){
             string grade = "A";
-            Console.WriteLine($"Your grade is a {grade}");
+        Console.WriteLine($"{first_name} your grade is a {grade}");
+
         }
         else if (number >= 80){
             string grade = "B";
-            Console.WriteLine($"Your grade is a {grade}");
+        Console.WriteLine($"{first_name} your grade is a {grade}");
+
         }
         else if (number >= 70){
             string grade = "C";
-            Console.WriteLine($"Your grade is a {grade}");
+        Console.WriteLine($"{first_name} your grade is a {grade}");
+
         }
         else if (number >= 60){
             string grade = "D";
-            Console.WriteLine($"Your grade is a {grade}");
+        Console.WriteLine($"{first_name} your grade is a {grade}");
         }
         else if (number < 60){
             string grade = "F";
-            Console.WriteLine($"Your grade is a {grade}");
+        Console.WriteLine($"{first_name} your grade is a {grade}");
         }
     }
 }
