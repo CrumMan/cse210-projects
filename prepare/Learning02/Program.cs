@@ -1,9 +1,12 @@
 using System;
+using System.Dynamic;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args);
     {
-        Console.WriteLine("Hello Learning02 World!");
+        int numbers = getInputs();
     }
+    private void getInputs();
+    
 }
